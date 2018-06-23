@@ -9,13 +9,16 @@ class GardenGnome
     @personality = "evil" 
   end 
   
-  def name
+  def name=(name)
+    @name = name
   end 
   
-  def age
+  def age=(age)
+    @age = age
   end 
   
-  def gluten_allergy
+  def gluten_allergy=(gluten_allergy)
+    @gluten_allergy = gluten_allergy
   end 
   
 end 
