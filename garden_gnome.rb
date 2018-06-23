@@ -1,6 +1,7 @@
 # Code your instances here
 
 class GardenGnome
-  attr_accessible :name 
+  
+  attr_accessor :name
   
 end 
