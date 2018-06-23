@@ -9,4 +9,13 @@ class GardenGnome
     @personality = "evil" 
   end 
   
+  def name
+  end 
+  
+  def age
+  end 
+  
+  def gluten_allergy
+  end 
+  
 end 
